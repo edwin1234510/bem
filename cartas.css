@@ -1,0 +1,77 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carta{
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Times New Roman';
+    background-color: var(--verde_oscuro);
+    border: 2px solid var(--verde);
+}
+.carta--naranja{
+    background-color: var(--naranja);
+    border-radius: 8px;
+    border: 2px solid var(--rojo);
+}
+.carta--borde_celeste{
+    border: 2px solid var(--celeste);
+    border-radius: 8px;
+    background-color: var(--blanco);
+}
+.carta--borde_celeste:hover{
+    border: 2px solid var(--celeste);
+    background-color: var(--celeste);
+    color: var(--blanco);
+}
+.carta--amarillo{
+    background-color: var(--amarillo);
+    border: 2px solid var(--negro);
+    border-radius: 8px;
+    transition: 1s;
+}
+.carta--amarillo:hover{
+    background-color: var(--blanco);
+    border: 2px solid var(--amarillo);
+    color: var(--amarillo);
+}
+
+
+
+.carta__titulo{
+    padding-top: 10px;
+}
+.carta__titulo--blanco{
+    color: var(--blanco);
+}
+.carta__titulo--rojo{
+    color: var(--rojo);
+}
+
+
+
+.carta__imagen{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.carta__imagen--pikachu{
+    filter: drop-shadow(5px 5px 2px var(--amarillo));
+}
+
+
+.carta__descripcion{
+    font-size: 15px;
+}
+.carta__descripcion--blanco{
+    color: var(--blanco);
+}
+.carta__descripcion--rojo{
+    color: var(--rojo);
+
+}

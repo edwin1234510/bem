@@ -1,0 +1,55 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-family: Arial;
+}
+.lista__item{
+    font-size: 15px;
+}
+.lista--rojo{
+    color: var(--rojo);
+}
+.lista__item--estilo_cuadrado_verde{
+    list-style-type: square;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+.lista__item--estilo_cuadrado_verde::marker{
+    color: var(--verde);
+}
+.lista--morado{
+    color: var(--morado);
+}
+.lista__item--estilo_circulo_lila{
+    list-style-type: circle;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+.lista__item--estilo_circulo_lila::marker{
+    color: var(--lila);
+    font-size: 30px;
+}
+.lista__item--estilo_circulo_lila:hover{
+    color: var(--lila);
+}
+.lista--celeste{
+    color: var(--celeste);
+    font-size: 20px;
+    font-family:  Georgia;
+    list-style-type: lower-alpha;
+}
+.lista__item--estilo_letras_azules::marker{
+    color: var(--azul_rey);
+}
+.lista__item--estilo_letras_azules:hover{
+    background-color: var(--azul_rey);
+    color: var(--blanco);
+}

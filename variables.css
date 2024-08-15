@@ -1,0 +1,20 @@
+:root{
+    --negro: #000000;
+    --gris: #626262;
+    --blanco: hsl(0, 0%, 100%);
+    --celeste: #4dc6ee;
+    --azul_rey: #0a0db6;
+    --verde: #3ac72b;
+    --verde_oscuro: #094104;
+    --morado: #540c9b;
+    --lila: #b35ee9;
+    --amarillo: #f6d30d;
+    --naranja: #f08b2d;
+    --rosa: #f37ed6;
+    --rojo: #b00e0e;
+    --piel: #ffa57e;
+    --verde_pastel: #c7f271;
+    --agua_marina: #10bc83;
+    --gris_claro: #7c7c7c;
+    --naranja_oscuro: #ff7300;
+}

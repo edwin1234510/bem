@@ -1,0 +1,58 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.boton{
+    padding: 5px;
+    font-size: 15px;
+    font-family: Arial;
+    border: none;
+    display: block;
+    margin: 40px auto;
+    cursor: pointer;
+    background-color: var(--celeste);
+    color: var(--azul_rey);
+    border: 1px solid var(--azul_rey);
+}
+.bi{
+    margin-right: 4px;
+}
+.boton--morado{
+    background-color: var(--morado);
+    color: var(--blanco);
+    border: 2px solid var(--lila);
+}
+.boton--morado:hover{
+    background-color: var(--lila);
+    color: var(--negro);
+    border: 2px solid var(--lila);
+}
+.boton--amarillo{
+    background-color: var(--amarillo);
+    color: var(--naranja);
+    border-radius: 5px;
+    transition: 1s;
+    border: none;
+}
+.boton--amarillo:hover{
+    background-color: var(--naranja);
+    color: var(--amarillo);
+}
+.boton--rosa{
+    background-color: var(--rosa);
+    color: var(--blanco);
+    border-radius: 5px;
+    transition: 1s;
+    border: none;
+}
+.boton--rosa:hover{
+    color: var(--rojo);
+    background-color: var(--blanco);
+    box-shadow: 0 0 10px var(--rojo);
+}
+
+
+
+

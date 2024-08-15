@@ -1,0 +1,103 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.perfil{
+    width: 200px;
+    height: 230px;
+    background-color: var(--negro);
+    color: var(--blanco);
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+.perfil--verde_pastel{
+    background-color: var(--verde_pastel);
+    border: 2px solid var(--verde_oscuro);
+}
+.perfil--borde_agua_marina{
+    background-color: var(--blanco);
+    border: 2px solid var(--agua_marina);
+    border-radius: 8px;
+}
+.perfil--azul_rey{
+    background-color: var(--azul_rey);
+    border: 2px solid var(--celeste);
+    border-radius: 8px;
+}
+
+
+
+
+.perfil__imagen{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.perfil__imagen--borde_verde_oscuro{
+    border: 2px solid var(--verde_oscuro);
+}
+.perfil__imagen--borde_agua_marina{
+    border: 2px solid var(--agua_marina);
+}
+.perfil__imagen--blanco{
+    border: 3px solid var(--blanco);
+}
+
+
+
+
+.perfil__nombre{
+    margin-bottom: 10px;
+}
+.perfil__nombre--verde_oscuro{
+    color: var(--verde_oscuro);
+}
+.perfil__nombre--negro{
+    color: var(--negro);
+}
+
+
+.perfil__ocupacion{
+    margin-bottom: 15px;
+}
+.perfil__ocupacion--verde_oscuro{
+    color: var(--verde_oscuro);
+}
+.perfil__ocupacion--negro{
+    color: var(--negro);
+}
+
+
+
+
+.perfil__boton{
+    width: 50px;
+    height: 20px;
+    background-color: var(--gris);
+}
+.perfil__boton--verde{
+    background-color: var(--verde);
+    border: none;
+}
+.perfil__boton--agua_marina{
+    background-color: var(--agua_marina);
+    border: none;
+}
+.perfil__boton--agua_marina:hover{
+    background-color: var(--celeste); 
+}
+.perfil__boton--blanco{
+    background-color: var(--blanco);
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+.perfil__boton--blanco:hover{
+    background-color: var(--azul_rey);
+    box-shadow: 0 0 10px var(--blanco);
+    color: var(--blanco);
+}

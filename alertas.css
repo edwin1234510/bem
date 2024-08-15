@@ -1,0 +1,52 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.alerta{
+    margin: 50px auto;
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    place-content: center;
+    background-color: var(--celeste);
+    color: var(--azul_rey);
+    border: 2px solid var(--azul_rey);
+}
+.bi{
+    margin-right: 10px;
+}
+.alerta--amarilla{
+    background-color: var(--amarillo);
+    border: 2px solid var(--amarillo);
+    color: var(--naranja);
+}
+.alerta--amarilla:hover{
+    border: 2px solid var(--amarillo);
+    color: var(--amarillo);
+    background-color: var(--blanco);
+}
+.alerta--roja{
+    background-color: var(--rojo);
+    color: var(--piel);
+    border: 2px solid var(--piel);
+    border-radius: 8px;
+}
+.alerta--roja:hover{
+    background-color: var(--piel);
+    color: var(--rojo);
+    border: 2px solid var(--rojo);
+}
+.alerta--morado{
+    background-color: var(--morado);
+    color: var(--lila);
+    border: 2px solid var(--lila);
+    border-radius: 8px;
+    transition: 1s;
+}
+.alerta--morado:hover{
+    background-color: var(--blanco);
+    box-shadow: 0 0 10px var(--morado);
+    color: var(--morado);
+}

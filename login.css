@@ -1,0 +1,104 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.iniciar{
+    color: var(--blanco);
+    display: block;
+    height: 180px;
+    width: 200px;
+    margin: 30px auto;
+    text-align: center;
+    place-content: center;
+    font-family: Arial;
+    background-color: var(--negro);
+}
+.iniciar--celeste{
+    background-color: var(--celeste);
+    border-radius: 8px;
+}
+.iniciar--borde_verde{
+    border-radius: 8px;
+    border: 2px solid var(--verde);
+    background-color: var(--blanco);
+}
+.iniciar--morado{
+    background-color: var(--morado) ;
+    border: 5px solid var(--lila);
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.iniciar__subtitulo{
+    font-size: 15px;
+}
+
+.iniciar__subtitulo--blanco{
+    color: var(--blanco);
+}
+.iniciar__subtitulo--negro{
+    color: var(--negro);
+}
+
+
+
+
+
+
+.iniciar__input{
+    margin: 10px;
+}
+.iniciar__input--lila{
+    background-color: var(--lila);
+}
+
+
+
+
+
+
+.iniciar__boton{
+    width: 100px ;
+    height: 29px ;
+    margin-top: 5px;
+    border: none;
+    background-color: var(--gris);
+}
+
+.iniciar__boton--gris:hover{
+    background-color: var(--blanco);
+}
+.iniciar__boton--blanco{
+    background-color: var(--blanco);
+    border: 1px solid var(--gris);
+}
+.iniciar__boton--blanco:hover{
+    background-color: var(--azul_rey);
+    border: 1px solid var(--gris);
+    color: var(--blanco);
+}
+.iniciar__boton--verde{
+    background-color: var(--verde);
+    transition: 1s;
+}
+.iniciar__boton--verde:hover{
+    background-color: var(--verde_oscuro);
+    color: var(--blanco);
+}
+.iniciar__boton--lila{
+    background-color: var(--lila);
+    color: var(--blanco);
+}
+.iniciar__boton--lila:hover{
+    background-color: var(--morado);
+    color: var(--blanco);
+    box-shadow: 0 0 15px var(--lila);
+}
