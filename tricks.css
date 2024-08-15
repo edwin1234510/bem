@@ -6,7 +6,7 @@
 }
 .menu{
     width: 100%;
-    height: 30px;
+    height: 100px;
     background-image: url(https://www.shutterstock.com/image-photo/white-dots-on-black-background-260nw-455775496.jpg);
     color: var(--blanco);
     display: flex;
@@ -16,13 +16,13 @@
     font-family: Arial;
 }
 .logo{
-    font-size: 15px;
+    font-size: 40px;
     margin-left: 15px;
     margin-right: 10px;
 }
 .item{
-    font-size: 10px;
-    padding: 9px 8px;
+    font-size: 20px;
+    padding: 38px 20px;
 }
 .item:hover{
     background-color: var(--gris_claro);
@@ -30,13 +30,18 @@
     opacity: 0.77;
 }
 .lupa{
-    margin-left: 410px;
+    margin-left: 300px;
     background: var(--blanco);
     color: var(--negro);
-    padding: 3px 5px;
-    border-radius: 16px;
-    font-size: 13px;
+    padding: 10px 11px;
+    border-radius: 50%;
+    font-size: 25px;
 }
 .lupa:hover{
     background-color: var(--gris_claro);
+}
+.imagen{
+    height: 47px;
+    width: 230px;
+    margin-right: 30px;
 }
