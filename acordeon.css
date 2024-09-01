@@ -4,3 +4,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+.menu{
+    display: block;
+    width: 340px;
+    height: 50px;
+    list-style: none;
+    border: solid 2px var(--rojo);
+    margin: 100px auto;
+    text-align: center;
+}
+.menu__lista{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    margin-top: 14px;
+}
+.menu__lista:hover .menu__despliegue{
+    display: block;
+}
+.menu__nombre{
+    text-decoration: none;
+    color: var(--negro);
+}
+.menu__despliegue{
+    display: none;
+    position: absolute;
+}
+.menu__desplegada{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    margin-top: 15px;
+    background-color: var(--rojo);
+}
+.menu__opciones{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--blanco);
+}
+.menu__opciones:hover{  
+}
