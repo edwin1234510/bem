@@ -25,6 +25,7 @@
 .menu__nombre{
     text-decoration: none;
     color: var(--negro);
+    font-size: 18px;
 }
 .menu__despliegue{
     display: none;
@@ -43,5 +44,45 @@
     text-decoration: none;
     color: var(--blanco);
 }
-.menu__opciones:hover{  
+.menu--verde{
+    background-color: var(--verde);
+    border: solid 2px var(--verde);
+}
+.menu__nombre--verde_oscuro{
+    color: var(--verde_oscuro);
+}
+.menu__desplegada--verde_oscuro{
+    background-color: var(--verde_oscuro);
+}
+.menu--morado{
+    background-color: var(--morado);
+    border: solid 2px var(--morado);
+}
+.menu__nombre--blanco{
+    color: var(--blanco);
+}
+.menu__desplegada--morados{
+    background-color: var(--morado);
+}
+.menu__opciones--hover_lila:hover{
+    background-color: var(--lila);
+}
+.menu--gris{
+    background-color: var(--gris);
+    border: solid 2px var(--gris);
+}
+.menu__nombre--hover_blanco:hover{
+    color: var(--blanco);
+}
+.menu__desplegada--gris{
+    background-color: var(--gris);
+    color: var(--negro);
+}
+.menu__opciones--hover_gris_claro{
+    color: var(--blanco);
+}
+.menu__opciones--hover_gris_claro:hover{
+    background-color: var(--gris_claro);
+    transition: 1s;
+    color: var(--negro);
 }
