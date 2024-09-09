@@ -1,0 +1,25 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+  width: 500px;
+  height: 99px;
+  background-color: var(--negro);
+  color: var(--blanco);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Arial;
+  margin: 50px auto;
+  cursor: pointer;
+}
+.item{
+  font-size: 15px;
+  padding: 41px 25px;
+}
+.item:hover{
+  color: var(--naranja_oscuro);
+}

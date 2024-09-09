@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center;
     margin: 60px auto;
+    cursor: pointer;
 }
 .tabla__contenido{
     width: 100%;
@@ -26,4 +27,30 @@
 }
 .tabla__datos{
     margin: 10px 0 10px 0;
+}
+.tabla--celeste_claro{
+    background-color: var(--celeste_claro);
+}
+.tabla__titulo--celeste{
+    background-color: var(--celeste);
+}
+.tabla--borde_rojo{
+    border: solid 3px var(--rojo);
+}
+.tabla__titulo--letras_rojas{
+    color: var(--rojo);
+    background-color: var(--blanco);
+    border-bottom: solid 3px var(--rojo);
+}
+.tabla__contenido--rosa{
+    background-color: var(--rosa);
+}
+.tabla__titulo--fondo_naranja{
+    background-color: var(--naranja_oscuro);
+}
+.tabla__datos--hover_naranja:hover{
+    color: var(--naranja_oscuro);
+}
+.tabla--sombra_amarillo{
+    box-shadow: 5px 5px 10px 5px var(--amarillo);
 }
