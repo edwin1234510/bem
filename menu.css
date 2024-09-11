@@ -16,10 +16,31 @@
   margin: 50px auto;
   cursor: pointer;
 }
-.item{
+.menu__item{
   font-size: 15px;
   padding: 41px 25px;
 }
-.item:hover{
+.menu__item:hover{
   color: var(--naranja_oscuro);
+}
+.menu--morado{
+  background-color: var(--morado);
+}
+.menu__item--hover_lila:hover{
+  background-color: var(--lila);
+  color: var(--blanco);
+}
+.menu--agua_marina{
+  background-color: var(--agua_marina);
+}
+.menu__item--hover_verde_pastel:hover{
+  background-color: var(--verde_pastel);
+  color: var(--negro);
+}
+.menu--gris{
+  background-color: var(--gris);
+}
+.menu__item--hover_celeste_claro:hover{
+  background-color: var(--celeste_claro);
+  color: var(--negro);
 }
